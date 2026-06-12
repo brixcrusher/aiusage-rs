@@ -8,7 +8,7 @@ use provider::{OpenRouter, UsageProvider, UsageReport};
 #[derive(Parser, Debug)]
 #[command(
     name = "aiusage-rs",
-    about = "Show OpenRouter key limits and credit usage statistics"
+    about = "Show AI provider key limits and credit usage statistics"
 )]
 struct Cli {
     /// OpenRouter API key(s), for example: --openrouter-key=sk-or-v1-... (use ; as delimiter for multiple keys)
