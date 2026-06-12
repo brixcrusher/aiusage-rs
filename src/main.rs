@@ -41,7 +41,7 @@ fn resolve_api_key(key_arg: Option<String>) -> Result<String> {
 }
 
 fn print_report(report: &UsageReport) {
-    println!("OpenRouter key usage report");
+    println!("Provider:{} usage report", report.provider);
     println!("==========================");
 
     println!(
